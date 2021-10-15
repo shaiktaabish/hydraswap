@@ -1438,10 +1438,7 @@
 }
 
 .copy-full {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -1454,6 +1451,7 @@
 }
 
 .text-block-7 {
+  display: none;
   margin-top: 37px;
   margin-bottom: 18px;
   opacity: 0.5;
@@ -1816,7 +1814,7 @@
   z-index: 1;
   width: 100vw;
   height: 100vh;
-  max-height: 750px;
+  max-height: 615px;
   max-width: 1700px;
   margin-right: auto;
   margin-left: auto;
